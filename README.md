@@ -1,4 +1,4 @@
-# A highly reusable input i'm constantly updating. 
+# A highly reusable input that is being constantly updated. 
 
 The input support many different style props that allow you to customize the look of the search bar fairly easily. I'm constantly updating this project adding more styles and customizability.
 
@@ -26,6 +26,6 @@ These are the props that are currently supported:
 
 
 
-Live demo: https://growable-search-bar.vercel.app/
+👩‍💻 Live demo: https://growable-search-bar.vercel.app/
 
-Live code here: https://githubbox.com/keiryan/growable-search-bar
+⚙️ Live code here: https://githubbox.com/keiryan/growable-search-bar
