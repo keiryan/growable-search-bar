@@ -40,7 +40,7 @@ export default function Search(props) {
         value={searchValue}
         toggled={toggled}
         type="text"
-        placeholder="Search"
+        placeholder={props.config?.placeholder || "Search"}
         config={props.config}
       />
       <IconContainer

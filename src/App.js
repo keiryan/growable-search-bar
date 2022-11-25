@@ -8,7 +8,7 @@ function App() {
       <Search />
       <Search
         config={{
-          placeholder: "Search",
+          placeholder: "Search here",
           color: "#ffffff",
           backgroundColor: "#19535F",
           border: "2px solid orange",
