@@ -1,4 +1,4 @@
-A highly reusable input i'm contantly updating.
+A highly reusable input i'm constantly updating.
 
 Live demo: https://growable-search-bar.vercel.app/
 
