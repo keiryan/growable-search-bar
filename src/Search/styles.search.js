@@ -29,7 +29,7 @@ export const SearchInput = styled.input`
   font-weight: ${(props) =>
     props.config?.fontWeight ? props.config.fontWeight : "normal"};
   ::placeholder {
-    color: #ffffff;
+    color: ${(props) => props.config?.placeholderColor || "#ffffff"};
     font-size: 14px;
     font-weight: ${(props) =>
       props.config?.placeholderWeight
@@ -38,10 +38,15 @@ export const SearchInput = styled.input`
   }
 `;
 
+export const SVG = styled.svg`
+  fill: ${(props) => props.config?.searchButtonColor || "#000"};
+`;
+
 export const IconContainer = styled(Base)`
   align-items: center;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: ${(props) =>
+    props.config?.searchButtonContainerColor || "#fff"};
   padding: 12px;
   border-radius: 50px;
   margin: 6px;
@@ -54,11 +59,8 @@ export const IconContainer = styled(Base)`
       props.config?.searchButtonContainerColorHover || "#fff"};
     cursor: pointer;
   }
-`;
 
-export const SVG = styled.svg`
-  fill: ${(props) => props.config?.searchButtonColor || "#000"};
-  :hover {
+  &:hover ${SVG} {
     fill: ${(props) => props.config?.searchButtonColorHover || "#000"};
   }
 `;
