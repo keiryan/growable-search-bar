@@ -22,7 +22,7 @@ These are the props that are currently supported:
 * ```searchButtonColor``` - To change the color of the search icon (the magnifying glass). The default is HEX value ```#000```
 * ```searchButtonColorHover``` - To change the color of the search icon (the magnifying glass) when hovering. The default is HEX value ```#000```
 * ```searchButtonContainerColor``` - To change the color of the search icon container. The default is HEX value ```#ffffff```
-* ```searchButtonContainerColorHover``` - To change the color of the search icon container when hovering. The default is HEX value ```#000```
+* ```searchButtonContainerColorHover``` - To change the color of the search icon container when hovering. The default is HEX value `#000`
 
 
 
