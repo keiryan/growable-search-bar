@@ -4,7 +4,7 @@ The input support many different style props that allow you to customize the loo
 
 ## Style props
 
-All style props are passed to the input via a object prop called **config**.
+All style props are passed to the input via a object prop called ```config```.
 
 The input would look like this: 
 
