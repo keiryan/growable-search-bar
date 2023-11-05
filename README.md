@@ -1,6 +1,6 @@
 # A highly reusable input that is being constantly updated. 
 
-The input support many different style props that allow you to customize the look of the search bar fairly easily. I'm constantly updating this project adding more styles and customizability.
+The input support many different style props that allow you to customize the look of the search bar fairly easily. I'm constantly updating this project adding more styles and customizability. 🔎
 
 ## Style props
 
